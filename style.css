@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(201, 165, 195);
+    font-family: 'Inter', Arial, sans-serif;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 3em;
+    padding: 1em 3em 3em 3em;
+    border-radius: 5px;
+    background-color: rgb(161, 131, 156);
+    text-align: center;
+    border: 3px rgb(87, 69, 84) solid;
+}
+
+hr{
+    border-top: solid rgb(53, 42, 51) 4px;
+    border-bottom: none;
+}
+
+p{
+    width: 400px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#message{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+input{
+    margin-top: 1em;
+    padding: 1em;
+    width: 70%;
+}
+
+button{
+    padding: 1em;
+}
+
+h3{
+    text-transform: uppercase;
+    margin-top: 2em;
+}
