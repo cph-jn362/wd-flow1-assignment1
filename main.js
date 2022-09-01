@@ -12,6 +12,13 @@ let button = document.querySelector("#submit");
 // executes function when button is clicked
 button.addEventListener("click", calculateBMI);
 
+// executes function when enter is pressed
+window.addEventListener("keydown", (event) => {
+  if (event.keyCode === 13) {
+    calculateBMI();
+  }
+});
+
 function calculateBMI() {
 
    // object gathers data from input fields
